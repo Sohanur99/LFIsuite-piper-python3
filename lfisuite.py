@@ -55,7 +55,7 @@ requests.packages.urllib3.disable_warnings(InsecureRequestWarning)
 try:
 	import socks
 except:
-	solve_dependencies("socks.py","https://github.com/Sohanur99/LFIsuite-piper-python3/blob/main/pipper.py")
+	solve_dependencies("socks.py","https://github.com/Sohanur99/LFIsuite-piper-python3/blob/main/socks.py")
 	import socks
 
 import threading
